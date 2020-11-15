@@ -1,0 +1,23 @@
+.rdw-option-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  height: var(--spacing-3);
+  width: var(--spacing-3);
+  border-radius: var(--spacing-m);
+}
+.rdw-option-wrapper:hover {
+  background-color: var(--secondary-light);
+}
+.rdw-option-wrapper:active {
+  background-color: var(--primary-lightest) !important;
+}
+.rdw-option-active {
+  background-color: var(--primary-lightest) !important;
+}
+.rdw-option-disabled {
+  opacity: 0.3;
+  cursor: default;
+}

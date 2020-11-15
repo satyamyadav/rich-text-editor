@@ -1,0 +1,36 @@
+.Editor-wrapper {
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+  padding-top: var(--spacing);
+}
+
+.Editor {
+  border-radius: var(--spacing-m);
+  border: var(--border);
+  box-sizing: content-box;
+}
+
+.Editor-toolbar {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  padding-left: var(--spacing-l);
+  border-radius: 3px;
+  background-color: var(--secondary-lightest);
+  user-select: none;
+
+  flex-wrap: wrap;
+}
+
+/* .Editor::-webkit-scrollbar {
+  width: var(--spacing);
+}
+
+.Editor::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: var(--spacing-m);
+} */
