@@ -161,7 +161,7 @@ class LayoutComponent extends Component {
     const trigger = (
       <Option
         value="unordered-list-item"
-        className={classNames(link.className)}
+        //className={classNames(link.className)}
         onClick={this.signalExpandShowModal}
         aria-haspopup="true"
         aria-expanded={showModal}
@@ -172,7 +172,7 @@ class LayoutComponent extends Component {
     );
 
     return (
-      <div>
+      <div aria-haspopup="true" aria-expanded={showModal}>
         <Popover
           trigger={trigger}
           position="bottom-start"

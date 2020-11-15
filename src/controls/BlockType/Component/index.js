@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Dropdown, DropdownOption } from '../../../components/Dropdown';
 import { Icon, Heading } from '@innovaccer/design-system';
-import './styles.css';
 
 class LayoutComponent extends Component {
   static propTypes = {

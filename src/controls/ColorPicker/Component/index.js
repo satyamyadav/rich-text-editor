@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { stopPropagation } from '../../../utils/common';
 import Option from '../../../components/Option';
 import { Icon, Popover } from '@innovaccer/design-system';
-import './styles.css';
 
 class LayoutComponent extends Component {
   static propTypes = {

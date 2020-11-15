@@ -1,0 +1,29 @@
+.rdw-editor-main {
+    /* max-height: 150px; */
+  overflow: auto;
+  box-sizing: border-box;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+}
+
+.rdw-editor-wrapper:focus {
+  outline: none;
+}
+.rdw-editor-wrapper {
+  box-sizing: content-box;
+  border-radius: var(--spacing-m);
+  border: var(--border);
+}
+
+.rdw-editor-main::-webkit-scrollbar {
+  width: var(--spacing-2);
+}
+
+.rdw-editor-main::-webkit-scrollbar-thumb {
+  border: var(--spacing-s) solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: var(--spacing);
+  background-color: var(--secondary-dark);
+}

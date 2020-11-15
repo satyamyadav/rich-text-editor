@@ -6,13 +6,6 @@
   padding-right: var(--spacing-l);
   padding-top: var(--spacing);
 }
-
-.Editor {
-  border-radius: var(--spacing-m);
-  border: var(--border);
-  box-sizing: content-box;
-}
-
 .Editor-toolbar {
   display: flex;
   justify-content: flex-start;
@@ -25,12 +18,3 @@
 
   flex-wrap: wrap;
 }
-
-/* .Editor::-webkit-scrollbar {
-  width: var(--spacing);
-}
-
-.Editor::-webkit-scrollbar-thumb {
-  background: var(--secondary);
-  border-radius: var(--spacing-m);
-} */

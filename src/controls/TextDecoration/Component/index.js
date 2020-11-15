@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Option from '../../../components/Option';
 import { Dropdown, DropdownOption } from '../../../components/Dropdown';
 import { Icon, Tooltip } from '@innovaccer/design-system';
-import './styles.css';
 
 export default class Inline extends Component {
   static propTypes = {

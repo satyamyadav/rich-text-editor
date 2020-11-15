@@ -37,7 +37,6 @@ import defaultToolbar from '../config/defaultToolbar';
 import localeTranslations from '../i18n';
 import { Heading, Text } from '@innovaccer/design-system';
 import '@innovaccer/design-system/css';
-import './styles.css';
 import '../../css/Draft.css';
 import '../../css/src/components';
 
@@ -424,6 +423,18 @@ class WysiwygEditor extends Component {
       'header-one': {
         //element: 'pre',
         wrapper: <Heading size="xxl">{this.props.children}</Heading>
+      },
+      'header-two': {
+        //element: 'pre',
+        wrapper: <Heading size="xl">{this.props.children}</Heading>
+      },
+      'header-three': {
+        //element: 'pre',
+        wrapper: <Heading size="l">{this.props.children}</Heading>
+      },
+      'header-four': {
+        //element: 'pre',
+        wrapper: <Heading size="m">{this.props.children}</Heading>
       },
       'unstyled': {
         element: 'span',
